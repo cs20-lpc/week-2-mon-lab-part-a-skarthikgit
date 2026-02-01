@@ -48,6 +48,7 @@ int main() {
     printFoods(dynArr, userSize);
 
     // TODO: release the dynamic memory to avoid a memory leak
+    delete[] dynArr;
 
     // terminate
     return 0;
